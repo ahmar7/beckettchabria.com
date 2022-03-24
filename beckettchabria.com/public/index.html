@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beckett & Chabria</title>
+
+    <link rel="stylesheet" href="./assets/fonts/Culture-Bold/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/Culture/stylesheet.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Staatliches&family=Ubuntu+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="preconnect"
+      href="https://fonts.googleapis.com">
+<link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet"
+      href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+    <div id="mbl-nav" class="mbl" >
+            <p id="mbl-logo" class="top-logo"><a  href="index.html">B&C</a></p>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a id="main-about" href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a  id="contact-nav" href="#contact">Contact</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+            <i onclick="hideNav()"  class="fas fa-bars"></i>
+               
+            </button>
+     
+</div>
+        <div id="nav" class="desk" >
+            <p id="logo" class="top-logo"><a  href="index.html">B&C</a></p>
+            <ul>
+                <li><a   href="#">Home</a></li>
+                <li><a  id="main-about" href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a  id="contact-nav" href="#contact">Contact</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+            <i class="fas fa-bars"></i>
+               
+            </button>
+        </div>
+      
+
+        <!-- mobile navbar -->
+        <div id="mySidenav" style="width: 0px;" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas circle fa-times-circle"></i></a>
+            <a onclick="closeNav()" class="close-text" href="#">Home</a>
+            <a onclick="closeNav()" class="close-text" href="#about">About</a>
+            <a onclick="closeNav()" class="close-text"  href="#services">Services</a>
+            <a onclick="closeNav()" class="close-text"  href="#contact">Contact</a>
+        </div>
+
+        <div id="header">
+            <div>
+                <h1 class="bracket">Beckett & Chabria</h1>
+                <div class="read-more-main">
+                    <a href="#about">read more about us</a>
+                </div>
+            </div>
+       
+           
+            <div class="contact-li">
+                <p class="header-link-contact"><a href="#contact">contact</a></p>
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <div>
+                <h1 class="about-data"  data-aos="fade-up"     data-aos-delay="40"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out">Beckett & Chabria is a full stack engineering and design firm, providing custom support for clients globally. Our team
+    has diverse design and engineering experience, and will smoothly execute your project from start to finish.</h1>
+            </div>
+        </div>
+
+        <div id="services">
+         <div class="service-head">
+             <p class="service" data-aos="fade-up">Services</p>
+             <div class="service-desc"  data-aos="fade-up">
+                 <p class="service-in" >Our services include the following: </p>
+
+             </div>
+             <div class="service-list-main">
+                 <ul data-aos="slide-right"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000" class="service-list">
+                     <li>customized website design and support</li>
+                     <li>web-based platforms</li>
+                     <li>third party integrations</li>
+                     <li>UX/UI</li>
+                     <li>e-commerce integrations</li>
+                     <li>analytics supporting customer acquisition and conversion</li>
+                     <li>technical project managment</li>
+                 </ul>
+             </div>
+         </div>
+        </div>
+
+        <div id="contact">
+            <div class="contact-area"  data-aos="fade-up"     data-aos-delay="40"
+    data-aos-duration="1200"
+    data-aos-easing="ease-in-out">
+                <h1>GET IN TOUCH</h1>
+                <h1>HELLO@BECKETTCHABRIA.COM</h1>
+                <h1>AROUND THE WORLD</h1>
+
+                <!-- <h1>
+                    GET IN TOUCH <br><br>
+                    HELLO@BECKETTCHABRIA.COM <br><br>
+                    AROUND THE WORLD
+                </h1> -->
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    //  function hideNav() {
+    //         let nav = document.getElementById("mySidenav");
+    //      nav.classList.add('sidenav')
+    //      nav.classList.remove('hide-bar')
+    //     }
+</script>
+</html>

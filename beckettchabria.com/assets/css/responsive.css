@@ -1,0 +1,194 @@
+@media only screen and (max-width: 825px) {
+  .bracket {
+    font-size: 70px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #nav ul {
+    display: none;
+  }
+  #mbl-nav ul {
+    display: none;
+  }
+  .mbl {
+    display: flex !important;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .desk {
+    display: none !important;
+  }
+  .about-data {
+    font-size: 30px !important;
+  }
+  #header,
+  #about,
+  #services,
+  #contact {
+    min-height: 500px;
+  }
+  .contact-area h1 {
+    font-family: "cultureregular", Arial, sans-serif;
+    font-weight: bold;
+    text-align: center !important;
+    font-size: 32px !important;
+  }
+  #header div:nth-child(1) h1 {
+    font-size: 30px;
+  }
+
+  #header div:nth-child(2) {
+    display: none;
+  }
+
+  #about div {
+    font-size: 15px;
+  }
+
+  /* #services {
+        grid-template-areas:
+            'website-dev'
+            'website-des'
+            'digital-mar'
+            'strategic-pla'
+        ;
+        grid-template-rows: 500px 500px 500px 500px;
+        grid-template-columns: 1fr;
+    } */
+
+  #services div {
+    text-align: center;
+  }
+
+  #services div h1 {
+    font-size: 13px;
+    line-height: 30px;
+  }
+
+  #contact div {
+    padding: 0 20px;
+    font-size: 10px;
+  }
+  .service-list li {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 698px) {
+  .bracket {
+    font-size: 60px !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #contact {
+    padding-top: 300px;
+  }
+  #contact div {
+    text-align: center;
+    position: initial;
+
+    right: 0;
+    transform: initial;
+    word-spacing: 8px;
+    padding: 0 60px;
+    line-height: 1.4;
+  }
+}
+@media only screen and (max-width: 585px) {
+  .bracket {
+    font-size: 50px !important;
+  }
+  #about div {
+    /* width: 800px; */
+    width: 90%;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    word-spacing: 8px;
+    font-size: 22px;
+    line-height: 1.4;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .contact-area h1 {
+    font-family: "cultureregular", Arial, sans-serif;
+    font-weight: bolder !important;
+    text-align: center !important;
+    font-size: 30px !important;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .about-data {
+    font-size: 25px !important;
+  }
+}
+@media only screen and (max-width: 525px) {
+  #contact {
+    padding-top: 300px;
+  }
+  #contact div {
+    text-align: center;
+    position: initial;
+
+    right: 0;
+    transform: initial;
+    word-spacing: 8px;
+    padding: 0 20px;
+    line-height: 1.4;
+  }
+}
+@media only screen and (max-width: 380px) {
+  #contact {
+    padding-top: 300px;
+  }
+  #contact div {
+    text-align: center;
+    position: initial;
+
+    right: 0;
+    transform: initial;
+    word-spacing: 8px;
+    padding: 0 10px;
+    line-height: 1.4;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .bracket {
+    text-align: center;
+    font-size: 40px !important;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .contact-area h1 {
+    font-family: "cultureregular", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 26px !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .service-list-main {
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .service-list-main ul li::before {
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #cb6ce6; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: 0em; /* Also needed for space (tweak if needed) */
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #header div:nth-child(1) h1 {
+    font-size: 60px;
+  }
+
+  #about div {
+    position: static !important;
+    transform: translateY(0) !important;
+    width: 90%;
+  }
+}
